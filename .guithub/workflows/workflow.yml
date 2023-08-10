@@ -17,5 +17,5 @@ jobs:
           uses: Azure/pipelines@v1
           with:
             azure-devops-project-url: https://dev.azure.com/ProjectNew0786/AgileProjec
-            azure-pipeline-name: 'DevOps0786.gitapp'
+            azure-pipeline-name: 'webApp'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
